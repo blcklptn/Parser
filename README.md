@@ -13,3 +13,7 @@ print("https://vk.com/"+a[0]['href'])
 
 
 Код можно было написать и в пару строк, но он станет менее читабельным...
+
+<div align="center">
+  <img src = "https://github.com/blcklptn/Parser/blob/main/2022-05-03_14-09.png">
+</div>
