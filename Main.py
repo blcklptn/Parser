@@ -13,8 +13,8 @@ LINKS = ['https://vk.com/linux0ids',
 def parser(link: str="None") -> None:
     response = requests.get(link)
     soup = BeautifulSoup(response.text, 'lxml')
-    a = soup.find_all('a', href=True)
-    print("https://vk.com/"+a[0]['href'])
+    elements = soup.find_all('a', href=True)
+    print("https://vk.com/"+elements[0]['href'])
 
 
 #  Проходимся по всем ссылкам
